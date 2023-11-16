@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Chakra+Petch:ital@0;1&family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    {{ bootstrap.load_css()}}
+  
+    <title>Flask Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = '/css/css.css') }}">
+</head>
+<body>
+<h1  class="display-2">BURLINGTON</h1>
+    <div id="nav">
+    <a href="/home">Home</a>
+    &emsp;&emsp;
+    <a href="/user_list">User List</a>
+    &emsp;&emsp;
+    <a href="/b">List</a>
+    </div>
+    <br>
+    <br>
+    <form id="myform" action="http://127.0.0.1:8080/form" method="POST" enctype = "multipart/form-data">
+       
+            <input type="text" placeholder="User name" name="user_name">
+            <br>
+            <br>
+            <input type="text" placeholder="User age" name="user_age">
+            <br>
+            <br>
+            <input type="text" placeholder="User City" name="user_city">
+            <br>
+            <br>
+            <input id="file" type="file" placeholder="file" name="user_file">
+            <br>
+            <br>
+            <input  type="submit" value="submit" class="btn btn-warning btn-outline-danger" accept="image/png, image/jpeg">
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* styling and positioning of the background image for each url */
+
+body{
+    background-attachment: fixed;
+    background-image: url('/static/BC1EABBE-B33C-4283-A67C-529CE71A3829_1_105_c.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#back{
+    background-attachment: fixed;
+    background-image: url('/static/DBEB2258-F694-4654-BC9D-5032E9563ED3_1_105_c.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#back1{
+    background-attachment: fixed;
+    background-image: url('/static/IMG_8391.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#back2{
+    background-attachment: fixed;
+    background-image: url('/static/IMG_8370.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: auto;
+}
+#back3{
+    background-attachment: fixed;
+    background-image: url('/static/IMG_7998.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: auto;
+}
+/* google fonts and bootstrap are used */
+/* styling and positioning of the titles  */
+h1, h2{
+    font-family: 'Amatic SC', cursive;
+    color: blue;
+    text-decoration: underline;  
+    text-shadow: 1px 2px 3px black;
+}
+
+h4{
+    font-family: 'Chakra Petch', sans-serif; 
+    color: red;  
+}
+
+h6, h5{
+    font-family: 'Orbitron', sans-serif;  
+    color: black;
+    text-shadow: 1px 3px 3px white;
+}
+/* styling of the form input feilds */
+form{
+    font-family: 'Orbitron', sans-serif; 
+}
+
+input[type=text]{
+    color: red;
+    background-color: lightyellow;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 5px;
+}
+input[type=num]{
+    color: red;
+    background-color: lightyellow;
+    box-shadow: 1px 2px 3px black;
+}
+/* making upload pics the same size thumbnail */
+#pic{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+    border-color: 2px white;
+    box-shadow: 1px 2px 3px black;
+}
+/* styling of the anchor tags and lists */
+ol{
+    list-style-position: inside; 
+    
+}
+a{
+    font-size: 1.5rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+#data1{
+    color: chartreuse;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1rem;
+}
+#data{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 1.5rem;
+}
+/* styling of the nav bar and submit buttons */
+#nav{
+    background-color: aliceblue;
+    box-shadow: 1px 2px 3px black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 30%;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+.btn{
+   box-shadow: 1px 2px 3px black;
+}
+/* styling for the user upload image */
+#file{
+    background-color: dimgrey;
+    border-radius: 8px;
+    max-width: 330px;
+    box-shadow: 1px 2px 3px black;
+}
+select{
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+}
